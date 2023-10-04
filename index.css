@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.2em;}
+p{font-size: 1.2em}
+a{font-size: 1.2em;}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: crimson;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgba(220, 20, 60, 0.767);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    margin-top: 35px;
+    padding: 10xp 0px;
+    font-weight: bold;
+    color: crimson;
+    font-size: 2em;
+    text-align: center;
+}
+
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+header a{
+    padding: 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+header a:hover{
+    color: rgba(0, 0, 0, 0.719);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("media/perro-y-gato.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: azure;
+}
+
+#hero button{
+    padding: 15px 20px;
+}
+
+#sobre-nosotros .container{
+    text-align: center;
+    padding: 50px 10px;
+}
+
+#gatos{
+    background-color: rgb(30, 30, 30);
+}
+
+#gatos .container{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#gatos h2{
+    color: white;
+}
+
+#gatos h3{
+    color: white;
+    padding-bottom: 20vh;
+}
+
+#gatos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("media/ricardo-gato.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("media/enrique-gato.jpg");
+}
+
+#perros .container{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#perros h2{
+    color:black;
+}
+
+#perros h3{
+    color: white;
+    padding-bottom: 20vh;
+}
+
+#perros .carta2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.carta2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("media/tizona-perro.jpg")
+    ;
+}
+
+.carta2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("media/daisy-perro.jpg")
+    ;
+}
+
+#nuestro-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#nuestro-contacto .container{
+    margin: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#nuestro-contacto h3{
+    color: crimson;
+}
+
+#nuestro-contacto a{
+    color: crimson;
+    text-decoration: none;
+}
+
+#nuestro-contacto a:hover{
+    color: rgba(220, 20, 60, 0.75);
+}
+
+footer .container{
+    text-align: center;
+}
+
+footer p{
+    font-size: 0.9em;
+}
